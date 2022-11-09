@@ -1,0 +1,223 @@
+body{
+    margin: 0; /* if you want to take aay the white space aroud box*/
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    display: flex;
+    flex-direction: column;
+    /*The body tag has to be left in block style so that the containers can stack on eachother*/
+}
+.head{
+    display: flex;
+    background: #1F2937;
+    height: 8vh;
+    width: 100%;
+    margin: 0;
+    color: honeydew;
+}
+.logo{
+    margin-top: 15px;
+    background: #1F2937;
+    margin-right: auto;
+    height: 50px;
+    width: 20%;
+    margin-left: 200px;
+    font-family:fantasy;
+}
+
+.main-nav{
+    display: flex;
+    width: 50%;
+    height: 20px;
+    flex-flow: row nowrap;
+    margin-left: auto;
+    gap: 18px;
+    list-style-type: none;
+    
+    justify-content: flex-end;
+    margin-right: 200px;
+}
+.container2{
+    display: flex;
+    margin-top: 0;
+    width: 100%;
+    height: 40vh;
+    background: #1F2937;  
+   /* background: chartreuse; */
+    gap: 100px; 
+    
+}
+
+/*
+.header2{ 
+    display: flex; 
+    align-self: center;
+    width: 25%;
+    background:burlywood;
+    margin-right: auto; 
+    margin-left: 200px;
+    height: 32vh;
+    justify-content: flex-start;
+    align-items: center; 
+    flex-direction: column;
+    padding: 20px 40px;   
+}
+ */
+
+ .header2{
+    display: flex;
+   /* background:lightskyblue;  */
+    height: 32vh;
+    width: 25%;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 170px;
+    padding: 20px 40px;
+    
+
+ }
+
+.p1{
+  display: flex;
+  font-size: 42px;
+  color: honeydew;  
+ /*background: chocolate; */
+}
+.p2{
+    color:#F9FAF8;
+    font-size: 12px;
+}
+.sign-up{
+    margin-top: 10px;
+}
+.SignUp{
+    color:  #E5E7EB;
+    background: #3882F6;
+    border: 0px solid;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+
+.image-placeholder{
+    display: flex;
+    background: grey;
+    justify-content: center;
+    align-items: center;
+    height: 22vh;
+    align-self: center;
+    width: 25%;
+    color: #F9FAF8;
+    padding: 20px 40px;
+}
+
+a{
+    text-decoration: none;
+}
+.box-container .text{
+    /*background: springgreen; */
+    height: 100px;
+    width: 110px;
+    display: flex;
+    flex: wrap;
+    font-size: 16px;
+    justify-content: center;
+    text-align: center;
+    
+}
+.container-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.mainContainer{
+    display: flex;
+    width: 100%;
+   /* background-color: #3882F6; */
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+   /* justify-content: space-around */;
+}
+.box{
+    width: 100px;
+    height: 100px;
+   /* background: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #3882F6;
+    border-radius: 5px;
+
+}
+.mainContainer-2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+    background: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+.mainContainer-2 .text{
+    display: flex;
+    width: 45%;
+    flex-wrap: wrap;
+    height: 110px;
+    /*background: hotpink; */
+    font-size: 24px;
+    font-style: italic;
+}
+.mainContainer-2 .text2{
+    /*background:lawngreen; */
+    font-weight: bold;
+    margin-left: 400px;
+}
+.mainContainer-3{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.mainContainer-3 .signUpBox{
+    display: flex;
+    width: 75%;
+    height: 100px;
+    background:#3882F6; 
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    border-radius: 5px;
+}
+.signUpContainer .text{
+    font-weight: bolder;
+}
+.signUpContainer .text2{
+    font-size: small;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 75px;
+    color: #E5E7EB;
+    background:#1F2937;
+    justify-content: center;
+    align-items: center;
+}
+.final-button{
+    color:  #E5E7EB;
+    background: #3882F6;
+    border: 2px solid #E5E7EB; 
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+.final-button:hover{
+    background-color: rgb(129, 127, 255);
+    color: rgb(240, 240, 255);
+}
